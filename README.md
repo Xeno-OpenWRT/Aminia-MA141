@@ -20,7 +20,9 @@ This is a firmware research and reverse-engineering project. It is **not an atte
 * Firmware: Vendor firmware, version 4.1.x
 * Root Filesystem: SquashFS
 ```
+## Technical Documentation
 
+- [NAND Flash Layout](docs/nand-layout.md)
 ## Hardware Research
 
 ### Processor and Platform
