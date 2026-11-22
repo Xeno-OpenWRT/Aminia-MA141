@@ -12,6 +12,11 @@ The purpose is to document the physical flash regions, firmware slots, bootloade
 
 The MA141 uses SPI-NAND flash.
 
+### Storage Capacity
+
+Flash Type: SPI-NAND
+Total Flash Capacity: 128 MB
+
 The supplied archive contains:
 
 - Bootloader partition.
