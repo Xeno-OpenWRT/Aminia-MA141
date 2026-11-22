@@ -27,8 +27,10 @@ Root Filesystem: SquashFS
 ```
 
 ## Technical Documentation
-
+- [Hardware Documentation](docs/hardware.md)
 - [NAND Flash Layout](docs/nand-layout.md)
+- [Bootloader Documentation](docs/bootloader.md)
+
 ## Hardware Research
 
 ### Processor and Platform
