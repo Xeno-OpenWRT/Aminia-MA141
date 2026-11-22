@@ -9,17 +9,23 @@ This is a firmware research and reverse-engineering project. It is **not an atte
 ## Device Overview
 
 ```text
-* Manufacturer: Aminia
-* Model: MA141
-* Category: AC2100 Dual-Band Wireless Router
-* Platform: Realtek-based platform (exact SoC not yet confirmed)
-* CPU Architecture: MIPS (identified from kernel image metadata)
-* Bootloader: U-Boot-derived bootloader
-* Flash: SPI-NAND
-* Ethernet: Realtek RTL SwCore (identified by boot environment)
-* Firmware: Vendor firmware, version 4.1.x
-* Root Filesystem: SquashFS
+Manufacturer: Aminia
+Model: MA141
+Category: AC2100 Dual-Band Wireless Router
+
+SoC: Realtek RTL8685FB
+Software-reported SoC: RTL8685SB
+CPU Architecture: MIPS
+RAM: 128 MB
+Flash: 128 MB
+Flash Type: SPI-NAND
+
+Ethernet: Realtek RTL SwCore
+Bootloader: U-Boot-derived
+Firmware: Vendor firmware 4.1.x
+Root Filesystem: SquashFS
 ```
+
 ## Technical Documentation
 
 - [NAND Flash Layout](docs/nand-layout.md)
